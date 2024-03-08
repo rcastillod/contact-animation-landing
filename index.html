@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact Overlay Animation</title>
+	<link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+
+	<section class="hero">
+		<div class="nav">
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sequi recusandae repellendus voluptatum
+				laudantium maxime.</p>
+		</div>
+
+		<div class="header">
+			<div class="header__text">
+				<h1>Chief</h1>
+			</div>
+			<div class="header__cta">
+				<a id="toggle" class="btn">
+					<div class="btn__inner-wrapper">
+						<div class="btn__text-one">Apply now</div>
+						<div class="btn__text-two">Apply now</div>
+					</div>
+				</a>
+			</div>
+		</div>
+
+		<div class="tagline">
+			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur delectus minus rem velit facere rerum.
+			</p>
+		</div>
+
+		<div class="social">
+			<a href="#" class="btn">
+				<div class="btn__inner-wrapper">
+					<div class="btn__text-one">Instagram</div>
+					<div class="btn__text-two">Instagram</div>
+				</div>
+			</a>
+			<a href="#" class="btn">
+				<div class="btn__inner-wrapper">
+					<div class="btn__text-one">Twitter</div>
+					<div class="btn__text-two">Twitter</div>
+				</div>
+			</a>
+		</div>
+
+	</section><!-- /hero -->
+
+	<div class="overlay">
+		<div class="col">
+			<div class="logo">
+				<a href="#">Chief</a>
+			</div>
+			<div class="form">
+				<form action="">
+					<div class="form__item">
+						<label for="fname">Name*</label>
+						<input type="text" id="fname" name="fname" placeholder="First + surname" />
+					</div>
+					<div class="form__item">
+						<label for="location">Location</label>
+						<input type="text" id="location" name="location" placeholder="Eg.  London, UK" />
+					</div>
+					<div class="form__item">
+						<label for="website">Website</label>
+						<input type="text" id="website" name="website" placeholder="https://" />
+					</div>
+					<div class="form__item">
+						<label for="jobs">Disciplines</label>
+						<div class="jobs">
+							<div class="jobs__items">
+								<div class="item">
+									<input type="checkbox" id="digital-design">
+									<label for="digital-design">Digital Design</label>
+								</div>
+								<div class="item">
+									<input type="checkbox" id="digital-design">
+									<label for="digital-design">Front-end</label>
+								</div>
+								<div class="item">
+									<input type="checkbox" id="digital-design">
+									<label for="digital-design">Webgl</label>
+								</div>
+								<div class="item">
+									<input type="checkbox" id="digital-design">
+									<label for="digital-design">Photography</label>
+								</div>
+								<div class="item">
+									<input type="checkbox" id="digital-design">
+									<label for="digital-design">Illustration</label>
+								</div>
+							</div> <!-- /jobs__items  -->
+							<div class="jobs__items">
+								<div class="item">
+									<input type="checkbox" id="digital-design">
+									<label for="digital-design">Brand Design</label>
+								</div>
+								<div class="item">
+									<input type="checkbox" id="digital-design">
+									<label for="digital-design">Back-ed</label>
+								</div>
+								<div class="item">
+									<input type="checkbox" id="digital-design">
+									<label for="digital-design">3D</label>
+								</div>
+								<div class="item">
+									<input type="checkbox" id="digital-design">
+									<label for="digital-design">Motion</label>
+								</div>
+								<div class="item">
+									<input type="checkbox" id="digital-design">
+									<label for="digital-design">Strategy</label>
+								</div>
+							</div> <!-- /jobs__items  -->
+						</div>
+					</div>
+					<div class="form__item submit">
+						<button class="btn">
+							<div class="btn__inner-wrapper">
+								<div class="btn__text-one">Send Application</div>
+								<div class="btn__text-two">Send Application</div>
+							</div>
+						</button>
+					</div>
+				</form>
+			</div>
+		</div><!-- /col-->
+		<div class="col">
+			<div class="copy">
+				<p>[get featured]</p>
+				<p id="back">[back]</p>
+			</div><!-- /copy -->
+
+			<div class="about">
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa, neque adipisci perferendis ad fugit iure
+					amet aperiam fuga sapiente labore sint harum quod, tempora voluptatibus natus nobis in necessitatibus. Quod?
+				</p>
+			</div><!-- /about -->
+
+			<div class="apply">
+				<h1>Apply</h1>
+			</div>
+
+		</div><!-- /col-->
+	</div><!-- /overlay -->
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/gsap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/ScrollTrigger.min.js"></script>
+	<script src="https://unpkg.com/@studio-freight/lenis@1.0.39/dist/lenis.min.js"></script>
+	<script src="./assets/js/scripts.js"></script>
+</body>
+
+</html>
